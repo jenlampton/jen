@@ -22,7 +22,7 @@ body {
   margin-bottom: 5px;
 }
 
-.region-content {
+body.front .region-content {
   background: transparent url('../images/DA-individual-120.png') bottom right no-repeat;
 }
 #footer {
@@ -156,7 +156,7 @@ article.view-mode-teaser {
 }
 .field-name-field-tags a:hover:before {
   border-color: transparent #555 transparent transparent;
-}
+}gi
 
 /* block styles */
 
@@ -230,4 +230,14 @@ ul.links {
 }
 ul.inline li {
   padding-left: 0;
+}
+code,
+div.codeblock {
+  display: block;
+  padding: 5px 10px;
+  border: 1px solid #CCC;
+  background-color: #EEE;
+}
+code br {
+  display: none;
 }
