@@ -13,7 +13,7 @@
 function jen_preprocess_page(&$variables) {
 
   // How to add a new variable for use in a twig template.
-  $variables['date'] = date('Y');
-  
+  $variables['path'] = drupal_get_path('theme', 'jen') . '/images/';
+  //$variables['date'] = date('Y');
 }
 
