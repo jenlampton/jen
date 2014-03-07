@@ -31,17 +31,7 @@ body {
   padding: 20px;
 }
 
-.field-name-field-location {
-  float: left;
-  margin: 0 10px 0 0;
-  line-height: 32px;
-}
-.field-name-field-dates {
-  float: right;
-  margin: 0 0 10px 0;
-  line-height: 32px;
-  font-weight: 600;
-}
+/* general styles */
 
 .subhead1 {
   clear: both;
@@ -68,14 +58,20 @@ body {
   margin-left: 20px;
 }
 
-.field-name-field-work-dates {
-  float: right;
-  margin-right: 150px;
-}
-
 /* node styles */
+
 .node {
   padding-bottom: 25px;
+}
+article.view-mode-teaser {
+  background-color: #F6F6F2;
+  border: 1px solid #CCC;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  position: relative;
 }
 .node-experience h3 {
   float: left;
@@ -83,7 +79,34 @@ body {
   border-bottom: 0;
 }
 
+/* field styles */
+
+.field-name-field-work-dates {
+  float: right;
+  margin-right: 150px;
+}
+.field-name-field-location {
+  float: left;
+  margin: 0 10px 0 0;
+  line-height: 32px;
+}
+.field-name-field-dates {
+  float: right;
+  margin: 0 0 10px 0;
+  line-height: 32px;
+  font-weight: 600;
+}
+.field-name-field-tags {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 24px;
+  bottom: -12px;
+}
+
 /* block styles */
+
 .region-content .block-custom-block {
   margin-top: 25px;
 }
@@ -98,6 +121,7 @@ body {
 }
 
 /* view styles */
+
 .view-presentations .view-footer {
   text-align: right;
 }
@@ -119,6 +143,7 @@ h2 {
   font-size: 140%;
   letter-spacing: 1px;
   padding: 5px 0;
+  border-bottom: 0;
 }
 h3 {
   font-size: 130%;
@@ -136,9 +161,20 @@ a {
   color: #77459F;
 }
 
+p.submitted {
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
 ul {
   list-style-type: square;
   list-style-image: none;
   margin: 0.25em 0 0.25em 1.5em;
   padding: 0;
+}
+ul.links {
+  margin-left: 0;
+}
+ul.inline li {
+  padding-left: 0;
 }
