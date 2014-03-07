@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Functions to support Jen's theme.
+ */
+
+/**
+ * Prepares variables for page templates.
+ *
+ * @see hook_preprocess_HOOK()
+ */
+function jen_preprocess_page(&$variables) {
+
+  // How to add a new variable for use in a twig template.
+  $variables['date'] = date('Y');
+  
+}
+

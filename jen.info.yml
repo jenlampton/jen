@@ -1,0 +1,24 @@
+name: Jen's There
+type: theme
+description: 'A one-column front-end theme.'
+package: Jen
+version: VERSION
+core: 8.x
+stylesheets:
+  screen:
+    - css/layout.css
+    - css/style.css
+edit_stylesheets:
+  - edit-jen.css
+settings:
+  # @todo D8: Remove once themes have to be installed.
+  shortcut_module_link: '1'
+regions:
+  content: Content
+  footer: Footer
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'
+regions_hidden:
+  - sidebar_first
+'base theme': seven

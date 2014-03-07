@@ -1,0 +1,144 @@
+body {
+  background-color: #E2D1EF;
+  color: #2F2F2F;
+  line-height: 25px;
+  font-size: 0.875em;
+}
+#page {
+  border: 1px solid #969696;
+  background-color: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+#branding {
+  text-align: center;
+}
+#site-name {
+  margin-bottom: 5px;
+}
+#email-address,
+#site-slogan {
+  margin-bottom: 5px;
+}
+
+.region-content {
+  background: transparent url('../images/DA-individual-120.png') bottom right no-repeat;
+}
+#footer {
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 20px;
+}
+
+.field-name-field-location {
+  float: left;
+  margin: 0 10px 0 0;
+  line-height: 32px;
+}
+.field-name-field-dates {
+  float: right;
+  margin: 0 0 10px 0;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.subhead1 {
+  clear: both;
+  margin-top: 5px;
+}
+.subhead2 {
+  clear: both;
+  margin-top: 15px;
+}
+.field-custom-block--body .subhead1 {
+  margin-top: 10px;
+}
+.field-custom-block--body .subhead2 {
+  margin-top: 5px;
+}
+.float {
+  float: right;
+}
+
+.subhead2 .float {
+  float: left;
+  width: 90px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.field-name-field-work-dates {
+  float: right;
+  margin-right: 150px;
+}
+
+/* node styles */
+.node {
+  padding-bottom: 25px;
+}
+.node-experience h3 {
+  float: left;
+  margin: 0 15px 0 0;
+  border-bottom: 0;
+}
+
+/* block styles */
+.region-content .block-custom-block {
+  margin-top: 25px;
+}
+#block-jen-skills {
+  margin-top: 0;
+}
+#block-jen-examplesofwork {
+  width: 75%;
+}
+#block-jen-references {
+  width: 50%;
+}
+
+/* view styles */
+.view-presentations .view-footer {
+  text-align: right;
+}
+.view-presentations ul {
+  margin-bottom: 0;
+}
+
+/* HTML elements */
+
+h2,
+h3,
+h4 {
+  font-weight: normal;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 140%;
+  letter-spacing: 1px;
+  padding: 5px 0;
+}
+h3 {
+  font-size: 130%;
+  padding: 3px 0;
+  margin: 5px 0;
+}
+h4 {
+  text-transform: uppercase;
+  font-size: 120%;
+  padding: 1px 0;
+  margin: 5px 0;
+}
+
+a {
+  color: #77459F;
+}
+
+ul {
+  list-style-type: square;
+  list-style-image: none;
+  margin: 0.25em 0 0.25em 1.5em;
+  padding: 0;
+}

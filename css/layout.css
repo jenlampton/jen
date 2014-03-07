@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+}
+
+#page {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: left;
+}
+
