@@ -7,9 +7,10 @@ body {
 #page {
   border: 1px solid #969696;
   background-color: #ffffff;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 #branding {
   text-align: center;
@@ -77,6 +78,50 @@ article.view-mode-teaser {
   float: left;
   margin: 0 15px 0 0;
   border-bottom: 0;
+}
+
+/* comment styles */
+
+.comment {
+  border: 1px solid #CCCCCC;
+  background-color: #eeeeee;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 0 15px 15px 15px;
+}
+.comment.by-node-author {
+  background-color: #EDE3F5;
+}
+
+#comment-form {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #CCCCCC;
+  background-color: #eeeeee;
+  padding: 10px 15px;
+  margin: 0 15px 15px;
+}
+#comment-form #edit-name,
+#comment-form .form-item-subject,
+#comment-form .form-item-comment-body-0-value label,
+#comment-form #edit-comment-body-0-format {
+  display: none;
+}
+#comment-form textarea {
+  border: 1px solid #CCCCCC;
+}
+
+#comment-form #edit-actions {
+  text-align: right;
+  margin-bottom: 0;
+}
+
+.comment ul.links {
+  float: right;
+  margin: 0;
 }
 
 /* field styles */
@@ -156,7 +201,7 @@ article.view-mode-teaser {
 }
 .field-name-field-tags a:hover:before {
   border-color: transparent #555 transparent transparent;
-}gi
+}
 
 /* block styles */
 
@@ -240,4 +285,10 @@ div.codeblock {
 }
 code br {
   display: none;
+}
+
+.button--primary {
+  background: #77459F none;
+  border-color: #77459F;
+}
 }
