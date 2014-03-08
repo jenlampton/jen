@@ -23,7 +23,7 @@ body {
   margin-bottom: 5px;
 }
 
-body.front .region-content {
+body.front #content {
   background: transparent url('../images/DA-individual-120.png') bottom right no-repeat;
 }
 #footer {
@@ -205,7 +205,7 @@ article.view-mode-teaser {
 
 /* block styles */
 
-.region-content .block-custom-block {
+.block-custom-block {
   margin-top: 25px;
 }
 #block-jen-skills {
